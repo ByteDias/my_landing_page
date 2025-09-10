@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Matos | Desenvolvedor Full-Stack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Lucas Matos</a>
+        <nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+             </div>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Olá, eu sou o Lucas</h1>
+            <h2>Desenvolvedor Full-Stack & Apaixonado por Tecnologia</h2>
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn btn-primary">Meus Projetos</a>
+                <a href="https://www.linkedin.com/in/lucas-matos-dias-9212761b5/" target="_blank" class="btn btn-secondary">LinkedIn</a>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <div class="sobre-content">
+                <img src="images/209502402.jpg" alt="Foto de Lucas Matos" class="sobre-foto">
+                <div class="sobre-texto">
+                    <p>
+                        Atuo como <strong>Assistente de T.I no Assaí Atacadista</strong> desenvolvendo habilidades em suporte técnico, infraestrutura e resolução de problemas.<br>
+                        Estou em transição para <strong>Desenvolvimento Web</strong> focando em <strong>Angular, TypeScript e Node.js</strong> e aplicando esses conhecimentos em projetos práticos, como um dashboard administrativo com Angular.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologias">
+            <h2>Tecnologias & Formação</h2>
+            <div class="tech-grid">
+                <ul>
+                    <li><strong>Formação:</strong> Ciências da Computação na UNICID</li>
+                    <li><strong>Estudos:</strong> Algoritmos, bancos de dados, arquitetura de software</li>
+                    <li><strong>Stack principal:</strong> Angular, TypeScript, Node.js, HTML/CSS, Git</li>
+                    <li><strong>Diferencial:</strong> Experiência em T.I (infraestrutura & troubleshooting) + desenvolvimento web</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos em Destaque</h2>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <img src="projeto1.jpg" alt="Preview do Projeto 1">
+                    <h3>Dashboard Administrativo com Angular</h3>
+                    <p>Aplicação para gestão de dados internos, utilizando Angular, TypeScript e integração com Node.js.</p>
+                    <div class="tags">
+                        <span>Angular</span><span>TypeScript</span><span>Node.js</span>
+                    </div>
+                    <div class="projeto-links">
+                        <a href="https://github.com/lmatosdeveloper/dashboard-angular" target="_blank">Ver Código</a>
+                    </div>
+                </div>
+                <!-- Adicione outros projetos conforme necessário -->
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>
+                Busco minha primeira oportunidade como <strong>Desenvolvedor Júnior ou Estagiário</strong> (Front-end ou Full-stack) para consolidar minha migração de carreira.<br>
+                Ansioso para contribuir em projetos desafiadores, aprender com equipes experientes e evoluir como profissional de tecnologia.<br>
+                <br>
+                🔗 Confira meus projetos: <a href="https://github.com/ByteDias" target="_blank">github.com/ByteDias</a><br>
+                📩 Vamos conversar? Estou aberto a trocas, mentorias e oportunidades!
+            </p>
+            <div class="contato-links">
+                <a href="lmatosdeveloper@gmail.com">lmatosdeveloper@gmail.com</a>
+                <a href="https://www.linkedin.com/in/lucas-matos-dias-9212761b5/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/ByteDias" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Desenvolvido por Lucas Matos Dias</p>
+    </footer>
+
+    <script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+    document.querySelector('nav ul').classList.toggle('active');
+});
+</script>
+</body>
+</html>
