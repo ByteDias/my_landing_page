@@ -202,6 +202,7 @@ main {
     text-align: left;
     font-size: 1.1rem;
     color: var(--text-main);
+    text-align: justify;
 }
 
 .sobre-texto strong {
