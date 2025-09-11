@@ -1,7 +1,6 @@
-/* Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@400;600&display=swap');
 
-/* Use variáveis para cores - facilita a manutenção! */
 *{
     margin: 0;
     padding: 0;
@@ -28,13 +27,13 @@ body {
     line-height: 1.7;
 }
 
-/* Estilize cada seção com padding para dar respiro */
+
 section {
     padding: 60px 20px;
     text-align: center;
 }
 
-/* Crie um sistema de grid para os projetos e tecnologias */
+
 .projetos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -42,7 +41,7 @@ section {
     margin-top: 32px;
 }
 
-/* Menu hamburguer para mobile */
+
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -101,7 +100,6 @@ nav ul li a {
     font-weight: 600;
     padding: 10px 28px;
     border-radius: 6px;
-    transition: background 0.2s, color 0.2s;
     font-size: 16px;
 }
 
@@ -153,7 +151,6 @@ main {
     font-weight: 600;
     font-size: 1rem;
     text-decoration: none;
-    transition: background 0.2s, color 0.2s;
     box-shadow: var(--shadow);
 }
 
@@ -313,7 +310,6 @@ main {
     border-radius: 6px;
     text-decoration: none;
     font-weight: 600;
-    transition: background 0.2s, color 0.2s;
     box-shadow: var(--shadow);
 }
 
@@ -332,7 +328,6 @@ footer {
     box-shadow: var(--shadow);
 }
 
-/* Responsividade */
 @media (max-width: 900px) {
     main {
         max-width: 98vw;
